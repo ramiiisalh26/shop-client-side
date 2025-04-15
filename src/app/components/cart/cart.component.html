@@ -1,0 +1,29 @@
+<div class="cart" #cartTag>
+    <!-- <span class=".bg-overlay"></span> -->
+    <div class="top_cart">
+        <h3>My Cart <span id="innerItemCart" #innerItemCart> (0 Item in cart)</span></h3>
+        <span class="close_cart" (click)="close_cart()"><i class="fa-regular fa-circle-xmark"></i></span>
+    </div>
+
+    <div class="items_in_cart">
+        <div class="item_cart" *ngFor="let item of items_in_cart; let i = index">
+            <img [src]="item.img" alt="">
+            <div class="content">
+                <h4>{{item.name}}</h4>
+                <p class="price_cart">${{item.price}}</p>
+            </div>
+            <button class="delete_item" (click)="delete_from_cart(item)"><i class="fa-solid fa-trash-can"></i></button>
+        </div>
+    </div>
+
+    <div class="bottom_cart">
+        <div class="total">
+            <p>Cart subtotal</p>
+            <p class="price_cart_total" #price_cart_total>${{total_price}}</p>
+        </div>
+        <div class="button_cart">
+            <button (click)="navigateWithQueryParams(items_in_cart)" class="btn_cart">Proceed to checkout</button>
+            <button class="btn_cart trans_bg">Shop more</button>
+        </div>
+    </div>
+</div>

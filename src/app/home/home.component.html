@@ -1,0 +1,301 @@
+<section class="slider">
+    <div class="container">
+        <div class="side_bar">
+            <h2><i class="fa-solid fa-bars"></i> Shop By department</h2>
+            <a [routerLink]="['/allProduct']">All Categories</a>
+            <a href="#">Best Seller Products</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Top 10 Offers</a>
+            <a href="#">Phones & Tablet</a>
+            <a href="#">ُElectronics & Digita</a>
+            <a href="#">Fashion & Clothes</a>
+            <a href="#">Jewelry & Watches</a>
+            <a href="#">TV & Audio</a>
+        </div>
+
+        <!-- Swiper -->
+        <div class="slide-swp mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#"><img src="img/slider-01.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="img/slider-02.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="img/slider-03.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="feature_item">
+            <img src="img/features1.png" alt="">
+            <div class="text">
+                <h4>Free Shippig</h4>
+                <p>Free Shippig on All Order</p>
+            </div>
+        </div>
+
+        <div class="feature_item">
+            <img src="img/features2.png" alt="">
+            <div class="text">
+                <h4>Free Shippig</h4>
+                <p>Free Shippig on All Order</p>
+            </div>
+        </div>
+
+        <div class="feature_item">
+            <img src="img/features3.png" alt="">
+            <div class="text">
+                <h4>Free Shippig</h4>
+                <p>Free Shippig on All Order</p>
+            </div>
+        </div>
+
+        <div class="feature_item">
+            <img src="img/features4.png" alt="">
+            <div class="text">
+                <h4>Free Shippig</h4>
+                <p>Free Shippig on All Order</p>
+            </div>
+        </div>
+
+        <div class="feature_item">
+            <img src="img/features5.png" alt="">
+            <div class="text">
+                <h4>Free Shippig</h4>
+                <p>Free Shippig on All Order</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="banner">
+    <div class="container">
+
+        <div class="banner_img">
+            <div class="glass_hover"></div>
+            <a href="#"></a>
+            <img src="img/banner/banner-1.jpg" alt="">
+        </div>
+
+        <div class="banner_img">
+            <div class="glass_hover"></div>
+            <a href="#"></a>
+            <img src="img/banner/banner-2.jpg" alt="">
+        </div>
+
+        <div class="banner_img">
+            <div class="glass_hover"></div>
+            <a href="#"></a>
+            <img src="img/banner/banner-3.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="slide slide_sale">
+    <div class="container">
+        <div class="sale_sec mySwiper">
+
+            <div class="top_slide">
+                <h2>on sale <span>product</span></h2>
+            </div>
+
+            <div id="swiper_items_sale" class="products swiper-wrapper">
+                <div class="product swiper-slide" *ngFor="let product of offer_products">
+                    <div class="icons">
+                        <span><i (click)="addToCart(product.id,$event)" class="fa-solid fa-cart-plus"></i></span> 
+                        <span><i class="fa-solid fa-heart"></i></span> 
+                        <span><i class="fa-solid fa-share"></i></span> 
+                    </div>
+                    <span class="sale_persent">%{{calculateDiscountPercentage(product.old_price,product.price)}}</span>
+                    <div class="img_product">
+                        <img [src]="product.img" alt="">
+                        <img [src]="product.img_hover" class="img_hover" alt="">
+                    </div>
+                    <h3 class="name_product">
+                        <a [routerLink]="['/productItemPage']" [queryParams]="{product_id: product.id}" id="productItem">{{product.name}}</a>
+                    </h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <p><span>${{product.price}}</span></p>
+                        <p class="old_price">${{product.old_price}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next btn_swip"></div>
+            <div class="swiper-button-prev btn_swip"></div>
+
+        </div>
+    </div>
+</section>
+
+<section class="banner banner_big">
+    <div class="container">
+
+        <div class="banner_img">
+            <div class="glass_hover"></div>
+            <a href="#"></a>
+            <img src="img/banner/banner-4.jpg" alt="">
+        </div>
+
+        <div class="banner_img">
+            <div class="glass_hover"></div>
+            <a href="#"></a>
+            <img src="img/banner/banner-5.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="slide slide_product">
+    <div class="container">
+
+        <div class="top_slide">
+            <h2>Computer & Desktop <span>products</span></h2>
+        </div>
+
+        <div class="slide_with_img">
+            <div class="categ_img">
+                <a href="#"><img src="img/banner/banner-sm-1.jpg" alt=""></a>
+            </div>
+
+            <div class="product_swip mySwiper">
+                <div class="products other_product_swiper swiper-wrapper" id="other_product_swiper">
+                    <div class="product swiper-slide" *ngFor="let product of products">
+                        <div class="icons">
+                            <span><i (click)="addToCart(product.id,$event)" class="fa-solid fa-cart-plus"></i></span> 
+                            <span><i class="fa-solid fa-heart"></i></span> 
+                            <span><i class="fa-solid fa-share"></i></span> 
+                        </div>
+                        <div class="img_product">
+                            <img [src]="product.img" alt="">
+                            <img [src]="product.img_hover" class="img_hover" alt="">
+                        </div>
+                        <h3 class="name_product">
+                            <a [routerLink]="['/productItemPage']" [queryParams]="{product_id: product.id}">{{product.name}}</a>
+                        </h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <p><span>$${{product.price}}</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next btn_swip"></div>
+                <div class="swiper-button-prev btn_swip"></div>
+
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="slide slide_product">
+    <div class="container">
+
+        <div class="top_slide">
+            <h2>Computer & Desktop <span>products</span></h2>
+        </div>
+
+        <div class="slide_with_img">
+
+            <div class="product_swip mySwiper">
+                <div class="products other_product_swiper swiper-wrapper" id="other_product_swiper_2">
+                    <div class="product swiper-slide" *ngFor="let product of products">
+                        <div class="icons">
+                            <span><i (click)="addToCart(product.id,$event)" class="fa-solid fa-cart-plus"></i></span> 
+                            <span><i class="fa-solid fa-heart"></i></span> 
+                            <span><i class="fa-solid fa-share"></i></span> 
+                        </div>
+                        <div class="img_product">
+                            <img [src]="product.img" alt="">
+                            <img [src]="product.img_hover" class="img_hover" alt="">
+                        </div>
+                        <h3 class="name_product">
+                            <a [routerLink]="['/productItemPage']" [queryParams]="{product_id: product.id}">{{product.name}}</a>
+                        </h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <p><span>${{product.price}}</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next btn_swip"></div>
+                <div class="swiper-button-prev btn_swip"></div>
+
+            </div>
+
+            <div class="categ_img">
+                <a href="#"><img src="img/banner/banner-sm-2.jpg" alt=""></a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="banner">
+    <div class="container">
+
+        <div class="banner_img">
+            <div class="glass_hover"></div>
+            <a href="#"></a>
+            <img src="img/banner/banner-6.jpg" alt="">
+        </div>
+
+        <div class="banner_img">
+            <div class="glass_hover"></div>
+            <a href="#"></a>
+            <img src="img/banner/banner-7.jpg" alt="">
+        </div>
+
+        <div class="banner_img">
+            <div class="glass_hover"></div>
+            <a href="#"></a>
+            <img src="img/banner/banner-8.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<div class="news_letter">
+    <div class="container">
+        <div class="text">
+            <img src="img/icon_email.png" alt="">
+            <div class="content">
+                <h4>sign up to newsletter</h4>
+                <p>Get email updates about our latest shop....and receive</p>
+                <h6>$30 Coupon For First Shoppig</h6>
+            </div>
+        </div>
+
+        <form action="" class="newsletter_form">
+            <input type="email" placeholder="Enter your email here...">
+            <button type="submit">subscribe</button>
+        </form>
+    </div>
+</div>
+<router-outlet />

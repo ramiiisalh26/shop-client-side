@@ -1,0 +1,127 @@
+.sec_form{
+    margin: 140px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form_container{
+    width: 350px;
+    background: #fff;
+    box-shadow: rgba(0,0, 0, 0.35) 0 5px 15px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.sec_form .form_container .title{
+    color: var(--dark-color);
+    text-align: center;
+    margin: 10px 0 30px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.sec_form .form_container .form{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+
+.sec_form .form_container .form input{
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+    outline: 0;
+    padding: 12px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.sec_form .form_container .form input:focus{
+    border-color: var(--main-color);
+}
+
+.sec_form .form_container .form .page-link{
+    margin: 0;
+    text-align: end;
+}
+
+.sec_form .form_container .form .page-link .page-link-label{
+    color: var(--prag-color);
+    font-size: 12px;
+}
+.sec_form .form_container .form .page-link .page-link-label:hover{
+    color: #000;
+}
+
+.sec_form .form_container .form .form-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: var(--main-color);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sec_form .form_container .sign-up-label{
+    margin: 0;
+    font-size: 12px;
+    color: var(--prag-color);
+}
+
+.sec_form .form_container .sign-up-label .sign-up-link{
+    color: var(--main-color);
+    font-size: 14px;
+    margin-left: 2px;
+    text-decoration: underline;
+}
+
+.sec_form .form_container .buttons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    width: 100%;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.sec_form .form_container .buttons-container i{
+    font-size: 22px;
+}
+
+.sec_form .form_container .buttons-container .apple-login-button,
+.sec_form .form_container .buttons-container .google-login-button{
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.sec_form .form_container .buttons-container .apple-login-button{
+    background: #000;
+    border: 2px solid #000;
+    color: #fff;
+} 
+.sec_form .form_container .buttons-container .google-login-button{
+    border: 2px solid #c5c5c57d;
+    color: var(--dark-color);
+}
+
+@media (max-width: 500px) {
+     .form_container{
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+     }
+}

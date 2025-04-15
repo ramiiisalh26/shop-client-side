@@ -1,0 +1,29 @@
+<section class="signin sec_form">
+    <div class="form_container">
+        <p class="title">Welcome In Topico</p>
+        <form [formGroup]="signUp" (ngSubmit)="onSubmit()" class="form">
+            <input type="text" placeholder="First Name" formControlName="first_name">
+            <input type="text" placeholder="Last Name" formControlName="last_name">
+            <input type="email" placeholder="Email" formControlName="email">
+            <input type="password" placeholder="Password" formControlName="password">
+            <input type="password" placeholder="re-Password" formControlName="re_password">
+
+            <button type="submit" [disabled]="!signUp.valid" class="form-btn">Sign up</button>
+        </form>
+
+        <p class="sign-up-label">
+            have an account? <a href="login.html" class="sign-up-link">Login</a>
+        </p>
+
+        <div class="buttons-container">
+            <div class="apple-login-button">
+                <i class="fa-brands fa-apple"></i>
+                <span>Sign up with Apple</span>
+            </div>
+            <div class="google-login-button">
+                <i class="fa-brands fa-google"></i>
+                <span>Sign up with Google</span>
+            </div>
+        </div>
+    </div>
+</section>

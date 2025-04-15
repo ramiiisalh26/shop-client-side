@@ -1,0 +1,29 @@
+<section class="signin sec_form">
+    <div class="form_container">
+        <p class="title">Welcome back</p>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()"  class="form">
+            <input type="email" placeholder="Email" formControlName="email">
+            <input type="password" placeholder="Password" formControlName="password">
+            <p class="page-link">
+                <a href="#" class="page-link-label">Forgot Password?</a>
+            </p>
+
+            <button class="form-btn">Login</button>
+        </form>
+
+        <p class="sign-up-label">
+            Don't have an account? <a href="signup.html" class="sign-up-link">Sign up</a>
+        </p>
+
+        <div class="buttons-container">
+            <div class="apple-login-button">
+                <i class="fa-brands fa-apple"></i>
+                <span>Login with Apple</span>
+            </div>
+            <div class="google-login-button">
+                <i class="fa-brands fa-google"></i>
+                <span>Login with Google</span>
+            </div>
+        </div>
+    </div>
+</section>

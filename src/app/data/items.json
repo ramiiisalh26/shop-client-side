@@ -1,0 +1,825 @@
+[
+  {
+    "id": 0,
+    "img": "img/product/product1.jpg",
+    "img_hover": "img/product/product-1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 185,
+    "old_price": 225,
+    "category": "Phone"
+  },
+  {
+    "id": 1,
+    "img": "img/product/product2.jpg",
+    "img_hover": "img/product/product-2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky Blue",
+    "price": 100,
+    "old_price": 120,
+    "category": "Phone"
+  },
+  {
+    "id": 2,
+    "img": "img/product/product3.jpg",
+    "img_hover": "img/product/product-3.jpg",
+    "name": "Original TV Android Dual",
+    "price": 140,
+    "old_price": 200,
+    "category": "TV"
+  },
+  {
+    "id": 3,
+    "img": "img/product/product4.jpg",
+    "img_hover": "img/product/product-4.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 90,
+    "old_price": 110,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 4,
+    "img": "img/product/product5.jpg",
+    "img_hover": "img/product/product-5.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 350,
+    "old_price": 420,
+    "category": "HeadPhone"
+
+  },
+  {
+    "id": 5,
+    "img": "img/product/product6.jpg",
+    "img_hover": "img/product/product-6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Black",
+    "price": 115,
+    "old_price": 235,
+    "category": "Phone"
+  },
+  {
+    "id": 6,
+    "img": "img/product/product7.jpg",
+    "img_hover": "img/product/product-7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 white",
+    "price": 225,
+    "old_price": 280,
+    "category": "Phone"
+  },
+  {
+    "id": 7,
+    "img": "img/product/product8.jpg",
+    "img_hover": "img/product/product-8.jpg",
+    "name": "Original SmartWatch Dual G3",
+    "price": 150,
+    "old_price": 200,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 8,
+    "img": "img/product/product-1.jpg",
+    "img_hover": "img/product/product1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 9,
+    "img": "img/product/product-2.jpg",
+    "img_hover": "img/product/product2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky blue",
+    "price": 300,
+    "category": "Phone"
+  },
+  {
+    "id": 10,
+    "img": "img/product/product-3.jpg",
+    "img_hover": "img/product/product3.jpg",
+    "name": "Original TV Dual G3",
+    "price": 250,
+    "category": "TV"
+  },
+  {
+    "id": 11,
+    "img": "img/product/product-4.jpg",
+    "img_hover": "img/product/product4.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 120,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 12,
+    "img": "img/product/product-5.jpg",
+    "img_hover": "img/product/product5.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 90,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 13,
+    "img": "img/product/product-6.jpg",
+    "img_hover": "img/product/product6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 129,
+    "category": "Phone"
+  },
+  {
+    "id": 14,
+    "img": "img/product/product-7.jpg",
+    "img_hover": "img/product/product7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 15,
+    "img": "img/product/product-8.jpg",
+    "img_hover": "img/product/product8.jpg",
+    "name": "Original SmartWatch G3",
+    "price": 60,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 0,
+    "img": "img/product/product1.jpg",
+    "img_hover": "img/product/product-1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 185,
+    "old_price": 225,
+    "category": "Phone"
+  },
+  {
+    "id": 1,
+    "img": "img/product/product2.jpg",
+    "img_hover": "img/product/product-2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky Blue",
+    "price": 100,
+    "old_price": 120,
+    "category": "Phone"
+  },
+  {
+    "id": 2,
+    "img": "img/product/product3.jpg",
+    "img_hover": "img/product/product-3.jpg",
+    "name": "Original TV Android Dual",
+    "price": 140,
+    "old_price": 200,
+    "category": "TV"
+  },
+  {
+    "id": 3,
+    "img": "img/product/product4.jpg",
+    "img_hover": "img/product/product-4.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 90,
+    "old_price": 110,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 4,
+    "img": "img/product/product5.jpg",
+    "img_hover": "img/product/product-5.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 350,
+    "old_price": 420,
+    "category": "HeadPhone"
+
+  },
+  {
+    "id": 5,
+    "img": "img/product/product6.jpg",
+    "img_hover": "img/product/product-6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Black",
+    "price": 115,
+    "old_price": 235,
+    "category": "Phone"
+  },
+  {
+    "id": 6,
+    "img": "img/product/product7.jpg",
+    "img_hover": "img/product/product-7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 white",
+    "price": 225,
+    "old_price": 280,
+    "category": "Phone"
+  },
+  {
+    "id": 7,
+    "img": "img/product/product8.jpg",
+    "img_hover": "img/product/product-8.jpg",
+    "name": "Original SmartWatch Dual G3",
+    "price": 150,
+    "old_price": 200,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 8,
+    "img": "img/product/product-1.jpg",
+    "img_hover": "img/product/product1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 9,
+    "img": "img/product/product-2.jpg",
+    "img_hover": "img/product/product2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky blue",
+    "price": 300,
+    "category": "Phone"
+  },
+  {
+    "id": 10,
+    "img": "img/product/product-3.jpg",
+    "img_hover": "img/product/product3.jpg",
+    "name": "Original TV Dual G3",
+    "price": 250,
+    "category": "TV"
+  },
+  {
+    "id": 11,
+    "img": "img/product/product-4.jpg",
+    "img_hover": "img/product/product4.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 120,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 12,
+    "img": "img/product/product-5.jpg",
+    "img_hover": "img/product/product5.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 90,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 13,
+    "img": "img/product/product-6.jpg",
+    "img_hover": "img/product/product6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 129,
+    "category": "Phone"
+  },
+  {
+    "id": 14,
+    "img": "img/product/product-7.jpg",
+    "img_hover": "img/product/product7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 15,
+    "img": "img/product/product-8.jpg",
+    "img_hover": "img/product/product8.jpg",
+    "name": "Original SmartWatch G3",
+    "price": 60,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 0,
+    "img": "img/product/product1.jpg",
+    "img_hover": "img/product/product-1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 185,
+    "old_price": 225,
+    "category": "Phone"
+  },
+  {
+    "id": 1,
+    "img": "img/product/product2.jpg",
+    "img_hover": "img/product/product-2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky Blue",
+    "price": 100,
+    "old_price": 120,
+    "category": "Phone"
+  },
+  {
+    "id": 2,
+    "img": "img/product/product3.jpg",
+    "img_hover": "img/product/product-3.jpg",
+    "name": "Original TV Android Dual",
+    "price": 140,
+    "old_price": 200,
+    "category": "TV"
+  },
+  {
+    "id": 3,
+    "img": "img/product/product4.jpg",
+    "img_hover": "img/product/product-4.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 90,
+    "old_price": 110,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 4,
+    "img": "img/product/product5.jpg",
+    "img_hover": "img/product/product-5.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 350,
+    "old_price": 420,
+    "category": "HeadPhone"
+
+  },
+  {
+    "id": 5,
+    "img": "img/product/product6.jpg",
+    "img_hover": "img/product/product-6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Black",
+    "price": 115,
+    "old_price": 235,
+    "category": "Phone"
+  },
+  {
+    "id": 6,
+    "img": "img/product/product7.jpg",
+    "img_hover": "img/product/product-7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 white",
+    "price": 225,
+    "old_price": 280,
+    "category": "Phone"
+  },
+  {
+    "id": 7,
+    "img": "img/product/product8.jpg",
+    "img_hover": "img/product/product-8.jpg",
+    "name": "Original SmartWatch Dual G3",
+    "price": 150,
+    "old_price": 200,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 8,
+    "img": "img/product/product-1.jpg",
+    "img_hover": "img/product/product1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 9,
+    "img": "img/product/product-2.jpg",
+    "img_hover": "img/product/product2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky blue",
+    "price": 300,
+    "category": "Phone"
+  },
+  {
+    "id": 10,
+    "img": "img/product/product-3.jpg",
+    "img_hover": "img/product/product3.jpg",
+    "name": "Original TV Dual G3",
+    "price": 250,
+    "category": "TV"
+  },
+  {
+    "id": 11,
+    "img": "img/product/product-4.jpg",
+    "img_hover": "img/product/product4.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 120,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 12,
+    "img": "img/product/product-5.jpg",
+    "img_hover": "img/product/product5.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 90,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 13,
+    "img": "img/product/product-6.jpg",
+    "img_hover": "img/product/product6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 129,
+    "category": "Phone"
+  },
+  {
+    "id": 14,
+    "img": "img/product/product-7.jpg",
+    "img_hover": "img/product/product7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 15,
+    "img": "img/product/product-8.jpg",
+    "img_hover": "img/product/product8.jpg",
+    "name": "Original SmartWatch G3",
+    "price": 60,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 0,
+    "img": "img/product/product1.jpg",
+    "img_hover": "img/product/product-1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 185,
+    "old_price": 225,
+    "category": "Phone"
+  },
+  {
+    "id": 1,
+    "img": "img/product/product2.jpg",
+    "img_hover": "img/product/product-2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky Blue",
+    "price": 100,
+    "old_price": 120,
+    "category": "Phone"
+  },
+  {
+    "id": 2,
+    "img": "img/product/product3.jpg",
+    "img_hover": "img/product/product-3.jpg",
+    "name": "Original TV Android Dual",
+    "price": 140,
+    "old_price": 200,
+    "category": "TV"
+  },
+  {
+    "id": 3,
+    "img": "img/product/product4.jpg",
+    "img_hover": "img/product/product-4.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 90,
+    "old_price": 110,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 4,
+    "img": "img/product/product5.jpg",
+    "img_hover": "img/product/product-5.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 350,
+    "old_price": 420,
+    "category": "HeadPhone"
+
+  },
+  {
+    "id": 5,
+    "img": "img/product/product6.jpg",
+    "img_hover": "img/product/product-6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Black",
+    "price": 115,
+    "old_price": 235,
+    "category": "Phone"
+  },
+  {
+    "id": 6,
+    "img": "img/product/product7.jpg",
+    "img_hover": "img/product/product-7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 white",
+    "price": 225,
+    "old_price": 280,
+    "category": "Phone"
+  },
+  {
+    "id": 7,
+    "img": "img/product/product8.jpg",
+    "img_hover": "img/product/product-8.jpg",
+    "name": "Original SmartWatch Dual G3",
+    "price": 150,
+    "old_price": 200,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 8,
+    "img": "img/product/product-1.jpg",
+    "img_hover": "img/product/product1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 9,
+    "img": "img/product/product-2.jpg",
+    "img_hover": "img/product/product2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky blue",
+    "price": 300,
+    "category": "Phone"
+  },
+  {
+    "id": 10,
+    "img": "img/product/product-3.jpg",
+    "img_hover": "img/product/product3.jpg",
+    "name": "Original TV Dual G3",
+    "price": 250,
+    "category": "TV"
+  },
+  {
+    "id": 11,
+    "img": "img/product/product-4.jpg",
+    "img_hover": "img/product/product4.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 120,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 12,
+    "img": "img/product/product-5.jpg",
+    "img_hover": "img/product/product5.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 90,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 13,
+    "img": "img/product/product-6.jpg",
+    "img_hover": "img/product/product6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 129,
+    "category": "Phone"
+  },
+  {
+    "id": 14,
+    "img": "img/product/product-7.jpg",
+    "img_hover": "img/product/product7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 15,
+    "img": "img/product/product-8.jpg",
+    "img_hover": "img/product/product8.jpg",
+    "name": "Original SmartWatch G3",
+    "price": 60,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 0,
+    "img": "img/product/product1.jpg",
+    "img_hover": "img/product/product-1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 185,
+    "old_price": 225,
+    "category": "Phone"
+  },
+  {
+    "id": 1,
+    "img": "img/product/product2.jpg",
+    "img_hover": "img/product/product-2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky Blue",
+    "price": 100,
+    "old_price": 120,
+    "category": "Phone"
+  },
+  {
+    "id": 2,
+    "img": "img/product/product3.jpg",
+    "img_hover": "img/product/product-3.jpg",
+    "name": "Original TV Android Dual",
+    "price": 140,
+    "old_price": 200,
+    "category": "TV"
+  },
+  {
+    "id": 3,
+    "img": "img/product/product4.jpg",
+    "img_hover": "img/product/product-4.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 90,
+    "old_price": 110,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 4,
+    "img": "img/product/product5.jpg",
+    "img_hover": "img/product/product-5.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 350,
+    "old_price": 420,
+    "category": "HeadPhone"
+
+  },
+  {
+    "id": 5,
+    "img": "img/product/product6.jpg",
+    "img_hover": "img/product/product-6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Black",
+    "price": 115,
+    "old_price": 235,
+    "category": "Phone"
+  },
+  {
+    "id": 6,
+    "img": "img/product/product7.jpg",
+    "img_hover": "img/product/product-7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 white",
+    "price": 225,
+    "old_price": 280,
+    "category": "Phone"
+  },
+  {
+    "id": 7,
+    "img": "img/product/product8.jpg",
+    "img_hover": "img/product/product-8.jpg",
+    "name": "Original SmartWatch Dual G3",
+    "price": 150,
+    "old_price": 200,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 8,
+    "img": "img/product/product-1.jpg",
+    "img_hover": "img/product/product1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 9,
+    "img": "img/product/product-2.jpg",
+    "img_hover": "img/product/product2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky blue",
+    "price": 300,
+    "category": "Phone"
+  },
+  {
+    "id": 10,
+    "img": "img/product/product-3.jpg",
+    "img_hover": "img/product/product3.jpg",
+    "name": "Original TV Dual G3",
+    "price": 250,
+    "category": "TV"
+  },
+  {
+    "id": 11,
+    "img": "img/product/product-4.jpg",
+    "img_hover": "img/product/product4.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 120,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 12,
+    "img": "img/product/product-5.jpg",
+    "img_hover": "img/product/product5.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 90,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 13,
+    "img": "img/product/product-6.jpg",
+    "img_hover": "img/product/product6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 129,
+    "category": "Phone"
+  },
+  {
+    "id": 14,
+    "img": "img/product/product-7.jpg",
+    "img_hover": "img/product/product7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 15,
+    "img": "img/product/product-8.jpg",
+    "img_hover": "img/product/product8.jpg",
+    "name": "Original SmartWatch G3",
+    "price": 60,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 0,
+    "img": "img/product/product1.jpg",
+    "img_hover": "img/product/product-1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 185,
+    "old_price": 225,
+    "category": "Phone"
+  },
+  {
+    "id": 1,
+    "img": "img/product/product2.jpg",
+    "img_hover": "img/product/product-2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky Blue",
+    "price": 100,
+    "old_price": 120,
+    "category": "Phone"
+  },
+  {
+    "id": 2,
+    "img": "img/product/product3.jpg",
+    "img_hover": "img/product/product-3.jpg",
+    "name": "Original TV Android Dual",
+    "price": 140,
+    "old_price": 200,
+    "category": "TV"
+  },
+  {
+    "id": 3,
+    "img": "img/product/product4.jpg",
+    "img_hover": "img/product/product-4.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 90,
+    "old_price": 110,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 4,
+    "img": "img/product/product5.jpg",
+    "img_hover": "img/product/product-5.jpg",
+    "name": "Original HeadPhone Dual G3",
+    "price": 350,
+    "old_price": 420,
+    "category": "HeadPhone"
+
+  },
+  {
+    "id": 5,
+    "img": "img/product/product6.jpg",
+    "img_hover": "img/product/product-6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Black",
+    "price": 115,
+    "old_price": 235,
+    "category": "Phone"
+  },
+  {
+    "id": 6,
+    "img": "img/product/product7.jpg",
+    "img_hover": "img/product/product-7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 white",
+    "price": 225,
+    "old_price": 280,
+    "category": "Phone"
+  },
+  {
+    "id": 7,
+    "img": "img/product/product8.jpg",
+    "img_hover": "img/product/product-8.jpg",
+    "name": "Original SmartWatch Dual G3",
+    "price": 150,
+    "old_price": 200,
+    "category": "SmartWatch"
+  },
+  {
+    "id": 8,
+    "img": "img/product/product-1.jpg",
+    "img_hover": "img/product/product1.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 Red",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 9,
+    "img": "img/product/product-2.jpg",
+    "img_hover": "img/product/product2.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 sky blue",
+    "price": 300,
+    "category": "Phone"
+  },
+  {
+    "id": 10,
+    "img": "img/product/product-3.jpg",
+    "img_hover": "img/product/product3.jpg",
+    "name": "Original TV Dual G3",
+    "price": 250,
+    "category": "TV"
+  },
+  {
+    "id": 11,
+    "img": "img/product/product-4.jpg",
+    "img_hover": "img/product/product4.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 120,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 12,
+    "img": "img/product/product-5.jpg",
+    "img_hover": "img/product/product5.jpg",
+    "name": "Original HeadPhone G3",
+    "price": 90,
+    "category": "HeadPhone"
+  },
+  {
+    "id": 13,
+    "img": "img/product/product-6.jpg",
+    "img_hover": "img/product/product6.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 129,
+    "category": "Phone"
+  },
+  {
+    "id": 14,
+    "img": "img/product/product-7.jpg",
+    "img_hover": "img/product/product7.jpg",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3 black",
+    "price": 180,
+    "category": "Phone"
+  },
+  {
+    "id": 15,
+    "img": "img/product/product-8.jpg",
+    "img_hover": "img/product/product8.jpg",
+    "name": "Original SmartWatch G3",
+    "price": 60,
+    "category": "SmartWatch"
+  }
+]
+  

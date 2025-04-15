@@ -1,0 +1,44 @@
+<header>
+    <div class="container top-nav">
+        <a routerLink="/" class="logo"><img src="img/logo-black.png" alt=""></a>
+        <form [formGroup]="searchForm" (ngSubmit)="loadSearchProduct()" class="search">
+            <input type="text" placeholder="Search for Products...." formControlName = "searchTerm" name="searchTerm">
+            <button >Search</button>
+        </form>
+
+        <div class="cart_header">
+            <div class="icon_cart" (click)="open_cart()">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="count_item" #countItems>0</span>
+            </div>
+            <div class="total_price">
+                <p>My Cart:</p>
+                <p class="price_cart_head" #price_cart_head>$0</p>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="links container">
+            <!-- <i (click)="open_menu()" class="fa-solid fa-bars btn_open_menu"></i> -->
+            <ul id="menu">
+                <!-- <span (click)="close_menu()" class="bg-overlay"></span>
+                <i (click)="close_menu()" class="fa-regular fa-circle-xmark btn_close_menu"></i>
+                <img class="logo_menu" src="img/logo-black.png" alt=""> -->
+    
+                <li class="active"><a routerLink="/">Home</a></li>
+                <li><a routerLink="/allProduct">All Products</a></li>
+                <li><a routerLink="/about-us">About us</a></li>
+                <li><a routerLink="/contact-us">Contact</a></li>
+            </ul>
+            <div class="loging_signup">
+                <a routerLink="auth/login" *ngIf="!isLoggedIn()">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+                <a routerLink="auth/sign-up" *ngIf="!isLoggedIn()">Sign up <i class="fa-solid fa-user-plus"></i></a>
+                <button (click)="logout()" *ngIf="isLoggedIn()">Logout  <i class="fa-solid fa-right-from-bracket"></i></button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<app-cart />
+<!-- <app-all-product /> -->
